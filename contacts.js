@@ -48,6 +48,7 @@ async function addContact(name, email, phone) {
       Number(parsedFileData[parsedFileData.length - 1].id) + 1;
     const contact = { id: generatedContactId.toString(), name, email, phone };
     const newContactList = [...parsedFileData, contact];
+    console.log(`Contact ${contact.name} has been successfully added.`);
     // fs.writeFile(contactsPath, JSON.stringify(newContactList));
   } catch (error) {
     console.error(error.message);
