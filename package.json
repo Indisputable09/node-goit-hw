@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/Indisputable09/node-goit-hw#readme",
   "dependencies": {
+    "commander": "^9.4.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
